@@ -128,7 +128,7 @@ section { padding-block: 84px 0; }
 .feature li::marker { color: var(--product); }
 .links { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-top: 14px; font-size: 0.92rem; font-weight: 500; }
 
-.grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
 .card { background: var(--surface); border: 1px solid var(--rule); border-radius: 14px; box-shadow: var(--shadow); padding: 24px; min-width: 0; display: flex; flex-direction: column; gap: 8px; }
 .card h3 { font-size: 1.1rem; }
 .card p { margin: 0; color: var(--muted); font-size: 0.92rem; }
@@ -224,7 +224,7 @@ footer p { color: var(--muted); margin: 10px 0 0; max-width: 50ch; }
   <section class="sec" id="building">
     <div class="eyebrow">Recently built</div>
     <h2>Things I make on my own time</h2>
-    <p class="sub">Pulled from my public GitHub repos. Everything below is mine, not a fork.</p>
+    <p class="sub">Pulled from my GitHub repos, public and private. Everything below is mine, not a fork.</p>
 
     <div class="feature">
       <div>
@@ -251,6 +251,12 @@ footer p { color: var(--muted); margin: 10px 0 0; max-width: 50ch; }
         <h3>FIRE Calculator India</h3>
         <p>A native iOS app that works out your Financial Independence, Retire Early number with Indian inflation defaults, PPF, NPS and ELSS, a monthly SIP calculator and a custom donut chart with no third-party dependencies.</p>
         <div class="meta"><span>May 2026</span><a href="https://github.com/swapnil-salunke/Fire-Calculator-India" target="_blank" rel="noopener">Code</a></div>
+      </div>
+      <div class="card">
+        <span class="chip">Kotlin Multiplatform · Next.js</span>
+        <h3>Wayfarer</h3>
+        <p>A travel journal for Android, iOS and the web. The mobile app shares one Kotlin Multiplatform codebase with Compose Multiplatform, Clean Architecture, Room and Koin. It has offline entries, photos, a timeline and a share card for Instagram Stories. A Next.js and Postgres web version is in progress.</p>
+        <div class="meta"><span>Oct–Nov 2026</span><span>Private repo</span></div>
       </div>
       <div class="card">
         <span class="chip">Swift · Kotlin</span>
